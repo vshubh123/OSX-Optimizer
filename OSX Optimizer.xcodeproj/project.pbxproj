@@ -13,6 +13,9 @@
 		D0098DEF178C71A200B68AD1 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = D0098DED178C71A200B68AD1 /* Credits.rtf */; };
 		D0098DF2178C71A200B68AD1 /* OptimizerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D0098DF1178C71A200B68AD1 /* OptimizerAppDelegate.m */; };
 		D0098DF5178C71A200B68AD1 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0098DF3178C71A200B68AD1 /* MainMenu.xib */; };
+		D025CE8F178CC163008F57CD /* Script commands.rtf in Resources */ = {isa = PBXBuildFile; fileRef = D025CE8E178CC163008F57CD /* Script commands.rtf */; };
+		D04769C117A4D4ED006E6BE9 /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = D04769C017A4D4ED006E6BE9 /* icon.icns */; };
+		D0ABCD2817A488AF0086BE2E /* OptimizerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D0ABCD2717A488AF0086BE2E /* OptimizerModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +32,10 @@
 		D0098DF0178C71A200B68AD1 /* OptimizerAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OptimizerAppDelegate.h; sourceTree = "<group>"; };
 		D0098DF1178C71A200B68AD1 /* OptimizerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OptimizerAppDelegate.m; sourceTree = "<group>"; };
 		D0098DF4178C71A200B68AD1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		D025CE8E178CC163008F57CD /* Script commands.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; name = "Script commands.rtf"; path = "OSX Optimizer/Script commands.rtf"; sourceTree = "<group>"; };
+		D04769C017A4D4ED006E6BE9 /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = icon.icns; path = ../icon.icns; sourceTree = "<group>"; };
+		D0ABCD2617A488AF0086BE2E /* OptimizerModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OptimizerModel.h; sourceTree = "<group>"; };
+		D0ABCD2717A488AF0086BE2E /* OptimizerModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OptimizerModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +53,7 @@
 		D0098DD2178C71A100B68AD1 = {
 			isa = PBXGroup;
 			children = (
+				D025CE8E178CC163008F57CD /* Script commands.rtf */,
 				D0098DE4178C71A100B68AD1 /* OSX Optimizer */,
 				D0098DDD178C71A100B68AD1 /* Frameworks */,
 				D0098DDC178C71A100B68AD1 /* Products */,
@@ -86,6 +94,9 @@
 				D0098DF1178C71A200B68AD1 /* OptimizerAppDelegate.m */,
 				D0098DF3178C71A200B68AD1 /* MainMenu.xib */,
 				D0098DE5178C71A100B68AD1 /* Supporting Files */,
+				D0ABCD2617A488AF0086BE2E /* OptimizerModel.h */,
+				D0ABCD2717A488AF0086BE2E /* OptimizerModel.m */,
+				D04769BB17A4D4BB006E6BE9 /* ASSETS */,
 			);
 			path = "OSX Optimizer";
 			sourceTree = "<group>";
@@ -100,6 +111,14 @@
 				D0098DED178C71A200B68AD1 /* Credits.rtf */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D04769BB17A4D4BB006E6BE9 /* ASSETS */ = {
+			isa = PBXGroup;
+			children = (
+				D04769C017A4D4ED006E6BE9 /* icon.icns */,
+			);
+			name = ASSETS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -157,6 +176,8 @@
 				D0098DE9178C71A100B68AD1 /* InfoPlist.strings in Resources */,
 				D0098DEF178C71A200B68AD1 /* Credits.rtf in Resources */,
 				D0098DF5178C71A200B68AD1 /* MainMenu.xib in Resources */,
+				D025CE8F178CC163008F57CD /* Script commands.rtf in Resources */,
+				D04769C117A4D4ED006E6BE9 /* icon.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -169,6 +190,7 @@
 			files = (
 				D0098DEB178C71A100B68AD1 /* main.m in Sources */,
 				D0098DF2178C71A200B68AD1 /* OptimizerAppDelegate.m in Sources */,
+				D0ABCD2817A488AF0086BE2E /* OptimizerModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,6 +326,7 @@
 				D0098DFA178C71A200B68AD1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
